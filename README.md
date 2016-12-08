@@ -7,7 +7,7 @@ Docker is already installed
 A folder has been created and contains this Dockerfile
 
 # To build:
-docker build ubuntu-multichain .
+docker build -t ubuntu-multichain .
 
 # To run:
 docker run -it ubuntu-multichain
